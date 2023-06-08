@@ -97,10 +97,68 @@ car-no car-name{
 }
 
 .map {
-  position: absolute;
+  position:fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1; 
+}
+/*@media (max-width: 767px) {
+  .container {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+     
+  }
+
+  .map-container {
+    height: 50vh; 
+  }
+
+  .card-container {
+    z-index: 1;
+    height: 50vh; 
+  }
+}*/
+@media (max-width: 767px) {
+  .container {
+    position: absolute;
+    top:65%;
+    width:95%;
+    bottom: 0;
+    right:0;
+  }
+.trip-info{
+  font-size :25px;
+}
+
+
+.driver-image {
+  grid-row: span 3;
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0px;
+  padding: 0;
+ 
+}
+#driver-name{
+  width:150px;
+  padding: 15px;
+}
+
+  .Flex{
+    width:100%;
+  }
+  .trip-container {
+  display:block;
+    width:100%;
+  }
+  car-no car-name{
+    margin: 5px;
+    padding: 5px;
+  }
+ 
 }
