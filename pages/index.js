@@ -59,7 +59,7 @@ export default function Home() {
   return (
     <div>
       <MapContainer
-        googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyABi8-qwYxFA0t-KeTuuKegUMI5qbLlc6k&libraries=places`}
+        googleMapURL={`https://maps.googleapis.com/maps/api/js?key=&libraries=places`}
         loadingElement={<div style={{ height: '100%' }} />}
         containerElement={<div style={{ height: '100vh' }} />}
         mapElement={<div style={{ height: '100%' }} />}
