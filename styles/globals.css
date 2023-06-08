@@ -45,28 +45,35 @@
 }
 car-no car-name{
   margin: 0px;
+  padding: 0px;
 }
 .driver_details
 {
   display: flex;
   flex-direction: column;
-
+  align-items: end;
+  margin-bottom: 7px;
 }
 
 .driver-image {
   grid-row: span 3;
-  width: 91px;
-  height: 91px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   overflow: hidden;
-  margin-right: 10px;
+  margin-right: 0px;
+  padding: 0;
+ 
 }
 
 #driver-name{
   background-color:  #04825C;
   color: white;
   width: 100px;
-  height: 37px;
+  height: 20px;
+  font-size: larger;
+  text-align: end;
+  padding: 2px;
 }
 
 .driver-image img {
@@ -81,8 +88,11 @@ car-no car-name{
 }
 
 .driver-call{
+  
+  padding:10px;
   display:flex;
   justify-content: space-between;
+  border-top: solid #D3D6D5 0.2px;
   
 }
 
